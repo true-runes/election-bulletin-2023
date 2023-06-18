@@ -58,4 +58,4 @@ jobs:
       - name: ESLint を実行する
         run: |
           npx eslint --ext .tsx .
-          # npx eslint --ext .ts .
+          npx eslint --ext .ts .
