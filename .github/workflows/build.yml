@@ -52,13 +52,12 @@ jobs:
           echo "npm list -g: $(npm list -g)"
           echo "yarn --version: $(yarn --version)
           echo "npx --version: $(npx --version)
-      - name: TypeScript をコンパイルする（いったんスキップ）
+      - name: TypeScript をコンパイルする
         run: |
-          echo "npx tsc"
-      - name: ESLint を実行する（いったんスキップ）
+          npx tsc
+      - name: ESLint を実行する
         run: |
-          echo "npx eslint --ext .tsx ."
-          echo "npx eslint --ext .ts ."
-      - name: Next.js を ビルド (SSG) する（いったんスキップ）
+          yarn lint
+      - name: Next.js を ビルド (SSG) する
         run: |
-          echo "yarn build"
+          yarn build
