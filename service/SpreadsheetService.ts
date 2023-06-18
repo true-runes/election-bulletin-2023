@@ -3,7 +3,7 @@ import type {
   GoogleSpreadsheetWorksheet as GoogleSpreadsheetWorksheetType,
   GoogleSpreadsheet as GoogleSpreadsheetType,
 } from 'google-spreadsheet'
-import creds from '../config/google_creds.json' assert { type: 'json' }
+// import creds from '../config/google_creds.json' assert { type: 'json' }
 
 export class SpreadsheetService {
   constructor() {
