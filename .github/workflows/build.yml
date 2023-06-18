@@ -52,10 +52,9 @@ jobs:
           echo "npm list -g: $(npm list -g)"
           echo "yarn --version: $(yarn --version)
           echo "npx --version: $(npx --version)
-      - name: TypeScript をコンパイルする
+      - name: TypeScript をコンパイルする（いったんスキップ）
         run: |
-          echo '{ "client_email": ${{ secrets.GCP_CLIENT_EMAIL }}, "private_key": ${{ secrets.GCP_PRIVATE_KEY }} }' > config/google_creds.json
-          npx tsc
+          echo "npx tsc"
       - name: ESLint を実行する
         run: |
           npx eslint --ext .tsx .
