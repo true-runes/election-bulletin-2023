@@ -3,9 +3,9 @@ import type {
   GoogleSpreadsheetWorksheet as GoogleSpreadsheetWorksheetType,
   GoogleSpreadsheet as GoogleSpreadsheetType,
 } from 'google-spreadsheet'
-import creds from '../config/google_creds.json'
+import creds from '../config/google_creds.json' assert { type: 'json' }
 
-export class Spreadsheet {
+export class SpreadsheetService {
   doc: GoogleSpreadsheetType
   sheet: GoogleSpreadsheetWorksheetType | undefined
 

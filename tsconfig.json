@@ -10,10 +10,8 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    // "isolatedModules": true,
-    "isolatedModules": false,
-    // "noEmit": true,
-    "noEmit": false,
+    "isolatedModules": true,
+    "noEmit": true,
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
@@ -23,7 +21,9 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    // NOTE: これがないと .ts なのに .js にしないとエラーが起きる
+    "allowImportingTsExtensions": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
