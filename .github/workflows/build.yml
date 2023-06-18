@@ -54,6 +54,7 @@ jobs:
           echo "npx --version: $(npx --version)
       - name: TypeScript をコンパイルする
         run: |
+          echo '{ "client_email": "foo", "private_key": "bar" }' > config/google_creds.json
           npx tsc
       - name: ESLint を実行する
         run: |
