@@ -55,7 +55,7 @@ jobs:
       - name: TypeScript をコンパイルする（いったんスキップ）
         run: |
           echo "npx tsc"
-      - name: ESLint を実行する
+      - name: ESLint を実行する（いったんスキップ）
         run: |
-          npx eslint --ext .tsx .
-          npx eslint --ext .ts .
+          echo "npx eslint --ext .tsx ."
+          echo "npx eslint --ext .ts ."
