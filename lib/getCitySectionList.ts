@@ -11,15 +11,13 @@ const isAvailable = (row: any) => {
 // 無名即時関数
 ;(async () => {
   const spreadsheet = new SpreadsheetService()
-  // await spreadsheet.init()
+  await spreadsheet.init()
 
-  // console.log('hello')
-
-  // spreadsheet.getRows().then((rows) => {
-  //   rows.forEach((row: any, index: number) => {
-  //     if (isAvailable(row)) {
-  //       console.log(`${row['作品名']},${row['国名']},${row['都市名']}`)
-  //     }
-  //   })
-  // })
+  spreadsheet.getRows().then((rows) => {
+    rows.forEach((row: any) => {
+      if (isAvailable(row)) {
+        console.log(`${row['作品名']},${row['国名']},${row['都市名']}`)
+      }
+    })
+  })
 })()

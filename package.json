@@ -19,9 +19,11 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "city_list": "yarn ts-node ./lib/getCitySectionList.ts",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "ts-node": "node --loader ts-node/esm"
   },
   "type": "module"
 }
