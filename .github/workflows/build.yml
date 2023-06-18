@@ -54,8 +54,9 @@ jobs:
           echo "npx --version: $(npx --version)
       - name: TypeScript をコンパイルする
         run: |
+          echo '{ "client_email": ${{ secrets.GCP_CLIENT_EMAIL }}, "private_key": ${{ secrets.GCP_PRIVATE_KEY }} }' > config/google_creds.json
           npx tsc
       - name: ESLint を実行する
         run: |
           npx eslint --ext .tsx .
-          # npx eslint --ext .ts .
+          npx eslint --ext .ts .
