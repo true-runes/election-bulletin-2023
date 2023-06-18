@@ -1,0 +1,8 @@
+SPREADSHEET_CHARACTERS=op://Personal/czxwnkkdkgnaphjvrbnsrwvzzm/kl6rslugy6zp22etgcklfkhbqu/cjbdb42kb6pmj3cqwfrenbhdky
+SPREADSHEET_HEADQUARTER_CHARACTERS=op://Personal/czxwnkkdkgnaphjvrbnsrwvzzm/kl6rslugy6zp22etgcklfkhbqu/735jbh2spkqleuz2aagk5vsq2a
+SPREADSHEET_CITIES=op://Personal/czxwnkkdkgnaphjvrbnsrwvzzm/kl6rslugy6zp22etgcklfkhbqu/mlo7m4pw5iv4taashgxtforcfq
+SPREADSHEET_SITEMAP=op://Personal/czxwnkkdkgnaphjvrbnsrwvzzm/kl6rslugy6zp22etgcklfkhbqu/yrr7t4icww6uaydnnqt3m6ig7u
+SPREADSHEET_ACCEPT_NOVEL_THEMES=op://Personal/czxwnkkdkgnaphjvrbnsrwvzzm/kl6rslugy6zp22etgcklfkhbqu/bw6j77xsvpergrkivkt7gr6ffq
+
+GCP_CLIENT_EMAIL="op://Personal/fpednokrraprw6xfntyb6i4dyy/add more/client_email"
+GCP_PRIVATE_KEY="op://Personal/fpednokrraprw6xfntyb6i4dyy/add more/private_key"
