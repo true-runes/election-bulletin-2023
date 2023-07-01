@@ -4,7 +4,7 @@ import Script from 'next/script'
 const siteName = '幻水総選挙2023 投票対象リスト'
 const description =
   '幻水総選挙2023における投票対象のリストを紹介しているサイトです。'
-const url = 'https://election.suikoden.info/'
+const url = 'https://election-bulletin.suikoden.info/'
 
 export const metadata = {
   title: {
