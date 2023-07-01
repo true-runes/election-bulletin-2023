@@ -23,7 +23,7 @@ const Cities = () => {
       <div className="text-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {cities.map((city: any, index: number) => (
-            <div className="cities" key={index}>
+            <div className="cities-and-titles" key={index}>
               <p className="city-and-title px-2">
                 {city.city}（{city.title}）
               </p>
