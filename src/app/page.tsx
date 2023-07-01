@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
 const Home = async () => {
   return (
@@ -41,7 +42,7 @@ const Home = async () => {
           <div className="my-6">
             <hr />
           </div>
-          <div className="py-2">2023 （株）幻水総選挙</div>
+          <GensosenkyoFooter />
         </div>
       </div>
     </div>

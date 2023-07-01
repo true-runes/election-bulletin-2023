@@ -1,6 +1,7 @@
 'use client'
 
 import cities from '@/app/resource/cities.json'
+import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
 const Cities = () => {
   return (
@@ -32,7 +33,7 @@ const Cities = () => {
       <div className="my-6">
         <hr />
       </div>
-      <div className="text-center pt-2 pb-6">2023 （株）幻水総選挙</div>
+      <GensosenkyoFooter />
     </div>
   )
 }
