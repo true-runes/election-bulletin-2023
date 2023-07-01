@@ -26,7 +26,7 @@ const Cities = () => {
           {headquartersCharacters.map(
             (headquartersCharacter: any, index: number) => (
               <div className="hq-characters" key={index}>
-                <p className="hq-character px-2">{headquartersCharacter}</p>
+                <p className="hq-character px-6">{headquartersCharacter}</p>
               </div>
             )
           )}
