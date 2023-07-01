@@ -1,6 +1,7 @@
 'use client'
 
 import headquartersCharacters from '@/app/resource/headquartersCharacters.json'
+import { ToTopPageFooter } from '../components/ToTopPageFooter'
 import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
 const Cities = () => {
@@ -24,8 +25,8 @@ const Cities = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {headquartersCharacters.map(
             (headquartersCharacter: any, index: number) => (
-              <div className="hoge" key={index}>
-                <p className="fuga px-2">{headquartersCharacter}</p>
+              <div className="hq-characters" key={index}>
+                <p className="hq-character px-2">{headquartersCharacter}</p>
               </div>
             )
           )}
@@ -36,6 +37,7 @@ const Cities = () => {
         <hr />
       </div>
 
+      <ToTopPageFooter />
       <GensosenkyoFooter />
     </div>
   )
