@@ -1,8 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Script from 'next/script'
-
-const inter = Inter({ subsets: ['latin'] })
 
 const siteName = '幻水総選挙2023 投票対象リスト'
 const description =
@@ -60,7 +57,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
