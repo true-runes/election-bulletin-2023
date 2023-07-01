@@ -7,6 +7,7 @@ const description =
 const url = 'https://election-bulletin.suikoden.info/'
 
 export const metadata = {
+  metadataBase: new URL(process.env.URL ?? 'http://localhost:3000'),
   title: {
     default: siteName,
     /** `next-seo`の`titleTemplate`に相当する機能 */
