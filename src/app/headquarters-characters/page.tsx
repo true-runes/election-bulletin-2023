@@ -40,18 +40,3 @@ const Cities = () => {
 }
 
 export default Cities
-
-{
-  /* // return (
-//   <div>
-//     {/* cities を回す indexをユニークにつける */
-}
-//     {holidays.map((city: any, index: number) => (
-//       <div classNameName="hoge" key={index}>
-//         <p classNameName="fuga">
-//           {city.title}::{city.country}::{city.city}
-//         </p>
-//       </div>
-//     ))}
-//   </div>
-// ) */}
