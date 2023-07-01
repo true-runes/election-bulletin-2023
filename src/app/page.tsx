@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Home = async () => {
   return (
     <div className="relative overflow-hidden pt-20">
@@ -12,8 +14,12 @@ const Home = async () => {
           <div className="my-6">
             <hr />
           </div>
-          <p className="text-4xl py-4">本拠地施設キャラ部門</p>
-          <p className="text-4xl py-4">街部門</p>
+          <p className="text-4xl py-4">
+            <Link href="/cities">本拠地施設キャラ部門</Link>
+          </p>
+          <p className="text-4xl py-4">
+            <Link href="/cities">街部門</Link>
+          </p>
           <div className="my-6">
             <hr />
           </div>
