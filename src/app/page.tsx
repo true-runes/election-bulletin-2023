@@ -15,9 +15,8 @@ const Home = async () => {
             <hr />
           </div>
           <p className="text-3xl py-4">
-            {/* リンクに下線を引きたい。下線と文字の縦の間隔は少し空けたい  */}
             <Link
-              href="/cities"
+              href="/headquarters-characters"
               passHref
               style={{
                 textDecoration: 'underline',
