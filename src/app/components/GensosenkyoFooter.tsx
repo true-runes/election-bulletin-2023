@@ -5,7 +5,7 @@ export const GensosenkyoFooter = () => {
   return (
     <div className="relative overflow-hidden">
       <div className="text-center">
-        <h1 className="font-bold text-white dark:text-white pt-2 pb-6">
+        <h1 className="font-bold text-white dark:text-white pt-2 pb-6 pl-4">
           <Link href="https://election.suikoden.info/" passHref>
             <div className="flex flex-row justify-center">
               幻水総選挙2023
