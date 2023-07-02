@@ -1,7 +1,7 @@
 'use client'
 
 import headquartersCharacters from '@/app/resource/headquartersCharacters.json'
-import { ToTopPageFooter } from '../components/ToTopPageFooter'
+import { ToTopPageFooter } from '@/app/components/ToTopPageFooter'
 import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
 const Cities = () => {
