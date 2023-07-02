@@ -13,7 +13,7 @@ export const ToTopPageFooter = () => {
               textUnderlineOffset: '0.2em',
             }}
           >
-            <div>トップページへ</div>
+            トップページへ
           </Link>
         </h1>
       </div>

@@ -6,12 +6,12 @@ export const GensosenkyoFooter = () => {
     <div className="relative overflow-hidden">
       <div className="text-center">
         <h1 className="font-bold text-white dark:text-white pt-2 pb-6 pl-4">
-          <Link href="https://election.suikoden.info/" passHref>
-            <div className="flex flex-row justify-center">
+          <div className="flex flex-row justify-center">
+            <Link href="https://election.suikoden.info/" passHref>
               幻水総選挙2023
-              <BiLinkExternal className="pt-1" />
-            </div>
-          </Link>
+            </Link>
+            <BiLinkExternal className="pt-1" />
+          </div>
         </h1>
       </div>
     </div>
