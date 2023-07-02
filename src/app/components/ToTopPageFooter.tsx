@@ -13,7 +13,7 @@ export const ToTopPageFooter = () => {
               textUnderlineOffset: '0.2em',
             }}
           >
-            トップページへ
+            「投票対象リスト」のトップページへ
           </Link>
         </h1>
       </div>
