@@ -10,7 +10,7 @@ export const metadata = {
   metadataBase: new URL(process.env.URL ?? 'http://localhost:3000'),
   title: {
     default: siteName,
-    /** `next-seo`の`titleTemplate`に相当する機能 */
+    // 'next-seo' の 'titleTemplate' に相当する機能
     template: `%s - ${siteName}`,
   },
   description,
