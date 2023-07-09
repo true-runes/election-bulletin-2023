@@ -4,7 +4,7 @@ import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
 export const metadata = {
   title: '街部門',
-};
+}
 
 const Cities = () => {
   return (
