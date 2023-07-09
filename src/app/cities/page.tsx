@@ -27,11 +27,17 @@ const Cities = () => {
       </div>
       <div className="text-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {cities.map((city: any, index: number) => (
-            <div className="cities-and-titles" key={index}>
-              <p className="city-and-title px-6">
-                {city.city}（{city.title}）
-              </p>
+          {/* key である product を h1 とし、values を並べる */}
+          {Object.entries(cities).map(([city, characters]) => (
+            <div className="cities-and-titles" key={city}>
+              <h1 className="city-and-title text-2xl px-6 my-4 underline underline-offset-8">
+                {city}
+              </h1>
+              {characters.map((character: any, index: number) => (
+                <p className="city-and-title px-6 py-1" key={index}>
+                  {character}
+                </p>
+              ))}
             </div>
           ))}
         </div>
