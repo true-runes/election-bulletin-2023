@@ -30,18 +30,20 @@ const Cities = () => {
       <div className="text-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {/* key である product を h1 とし、values を並べる */}
-          {Object.entries(productToHeadquartersCharacters).map(([product, headquartersCharacters]) => (
-            <div className="cities-and-titles" key={product}>
-              <h1 className="city-and-title text-2xl px-6 py-4">
-                {product}
-              </h1>
-              {headquartersCharacters.map((headquartersCharacter: any, index: number) => (
-                <p className="city-and-title px-6" key={index}>
-                  {headquartersCharacter}
-                </p>
-              ))}
-            </div>
-          ))}
+          {Object.entries(productToHeadquartersCharacters).map(
+            ([product, headquartersCharacters]) => (
+              <div className="cities-and-titles" key={product}>
+                <h1 className="city-and-title text-2xl px-6 py-4">{product}</h1>
+                {headquartersCharacters.map(
+                  (headquartersCharacter: any, index: number) => (
+                    <p className="city-and-title px-6 py-1" key={index}>
+                      {headquartersCharacter}
+                    </p>
+                  )
+                )}
+              </div>
+            )
+          )}
         </div>
       </div>
 
