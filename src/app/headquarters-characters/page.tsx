@@ -1,4 +1,5 @@
-import headquartersCharacters from '@/app/resource/headquartersCharacters.json'
+import productToHeadquartersCharacters from '@/app/resource/headquartersCharacters.json'
+
 import { ToTopPageFooter } from '@/app/components/ToTopPageFooter'
 import { GensosenkyoFooter } from '@/app/components/GensosenkyoFooter'
 
@@ -9,7 +10,7 @@ export const metadata = {
 const Cities = () => {
   return (
     <div className="relative overflow-hidden">
-      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:pt-24 pb-10">
+      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:pt-24 pb-4">
         <div className="text-center">
           <h1 className="text-5xl sm:text-5xl font-bold text-white py-2">
             幻水総選挙2023
@@ -28,10 +29,18 @@ const Cities = () => {
 
       <div className="text-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {headquartersCharacters.map(
-            (headquartersCharacter: any, index: number) => (
-              <div className="hq-characters" key={index}>
-                <p className="hq-character px-6">{headquartersCharacter}</p>
+          {/* key である product を h1 とし、values を並べる */}
+          {Object.entries(productToHeadquartersCharacters).map(
+            ([product, headquartersCharacters]) => (
+              <div className="cities-and-titles" key={product}>
+                <h1 className="city-and-title text-2xl px-6 py-4">{product}</h1>
+                {headquartersCharacters.map(
+                  (headquartersCharacter: any, index: number) => (
+                    <p className="city-and-title px-6 py-1" key={index}>
+                      {headquartersCharacter}
+                    </p>
+                  )
+                )}
               </div>
             )
           )}
