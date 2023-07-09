@@ -10,7 +10,7 @@ export const metadata = {
 const Cities = () => {
   return (
     <div className="relative overflow-hidden">
-      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:pt-24 pb-10">
+      <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:pt-24 pb-4">
         <div className="text-center">
           <h1 className="text-5xl sm:text-5xl font-bold text-white py-2">
             幻水総選挙2023
