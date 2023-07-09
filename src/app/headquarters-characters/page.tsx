@@ -33,7 +33,9 @@ const Cities = () => {
           {Object.entries(productToHeadquartersCharacters).map(
             ([product, headquartersCharacters]) => (
               <div className="cities-and-titles" key={product}>
-                <h1 className="city-and-title text-2xl px-6 py-4">{product}</h1>
+                <h1 className="city-and-title text-2xl px-6 py-4 underline underline-offset-8">
+                  {product}
+                </h1>
                 {headquartersCharacters.map(
                   (headquartersCharacter: any, index: number) => (
                     <p className="city-and-title px-6 py-1" key={index}>
