@@ -38,11 +38,11 @@ const Cities = () => {
                 </h1>
                 {headquartersCharacters.map(
                   (headquartersCharacter: any, index: number) => (
-                    <p className="city-and-title px-6 py-1" key={index}>
+                    <div className="city-and-title px-6 py-1" key={index}>
                       <div className="flex flex-col bg-white border shadow-sm rounded-xl p-4 md:p-5 dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7] dark:text-white my-2">
                         {headquartersCharacter}
                       </div>
-                    </p>
+                    </div>
                   )
                 )}
               </div>
