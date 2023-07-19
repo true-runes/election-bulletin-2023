@@ -43,7 +43,7 @@ const Cities = () => {
                   (headquartersCharacter: any, index: number) => (
                     <div className="city-and-title px-6 py-1" key={index}>
                       <div className="flex flex-col border shadow-sm rounded-xl p-2 md:p-3 bg-gray-900 border-gray-700 shadow-slate-700/[.7] text-white my-2">
-                        <div className="mb-0.5">{headquartersCharacter}</div>
+                        <div className="pb-1">{headquartersCharacter}</div>
                       </div>
                     </div>
                   )
