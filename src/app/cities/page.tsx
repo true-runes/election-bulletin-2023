@@ -40,7 +40,7 @@ const Cities = () => {
               {characters.map((character: any, index: number) => (
                 <div className="city-and-title px-6 py-1" key={index}>
                   <div className="flex flex-col border shadow-sm rounded-xl p-2 md:p-3 bg-gray-900 border-gray-700 shadow-slate-700/[.7] text-white my-2">
-                    <div className="pb-1">{character}</div>
+                    <div className="py-2">{character}</div>
                   </div>
                 </div>
               ))}
