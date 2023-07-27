@@ -202,7 +202,7 @@ const Cities = () => {
               id="tk"
               className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
             >
-              幻想水滸外ティアクライス
+              ティアクライス
             </h1>
             {tk.map((character: any, index: number) => (
               <div className="city-and-title px-6 py-1" key={index}>
@@ -218,7 +218,7 @@ const Cities = () => {
               id="tsumutoki"
               className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
             >
-              幻想水滸伝 紡がれし百年の時
+              紡時
             </h1>
             {tsumutoki.map((character: any, index: number) => (
               <div className="city-and-title px-6 py-1" key={index}>
