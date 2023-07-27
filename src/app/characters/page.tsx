@@ -42,13 +42,12 @@ const Cities = () => {
         <div className="mt-4">
           <hr />
         </div>
-      </div>
-      <div className="text-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+        <div className="text-center">
           <div id="select-product-title" className="pb-8">
             <h1
               id="s1"
-              className="characters-h1 text-xl px-6 py-4 underline underline-offset-8"
+              className="characters-h1 text-xl px-6 py-6 underline underline-offset-8"
             >
               タイトルジャンプ
             </h1>
@@ -80,13 +79,16 @@ const Cities = () => {
               <a href="#tsumutoki">幻想水滸伝 紡がれし百年の時</a>
             </div>
           </div>
+          <hr className="py-0" />
+        </div>
+      </div>
 
-          <hr className="py-2" />
-
+      <div className="text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <div className="characters">
             <h1
               id="s1"
-              className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
+              className="characters-h1 text-3xl px-6 mb-4 underline underline-offset-8"
             >
               幻想水滸伝
             </h1>
@@ -120,7 +122,7 @@ const Cities = () => {
               id="gaiden"
               className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
             >
-              幻想水滸外伝 (Vol.1 & Vol.2)
+              幻想水滸外伝
             </h1>
             {gaiden.map((character: any, index: number) => (
               <div className="city-and-title px-6 py-1" key={index}>
