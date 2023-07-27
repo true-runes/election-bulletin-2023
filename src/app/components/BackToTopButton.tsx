@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unknown-property */
 'use client'
 
 import { animateScroll as scroll } from 'react-scroll'
 import { BiChevronsUp } from 'react-icons/bi'
 import { useEffect, useState } from 'react'
 
-export const BackToTopButton: React.FC = () => {
+export const BackToTopButton = () => {
   const scrollToTop = () => {
     scroll.scrollToTop()
   }
@@ -19,7 +20,7 @@ export const BackToTopButton: React.FC = () => {
   }, [])
 
   const scrollWindow = () => {
-    const top = 100 //ボタンを表示させたい位置
+    const top = 100 // ボタンを表示させたい位置
     let scroll = 0
     scroll = window.scrollY
     if (top <= scroll) {
