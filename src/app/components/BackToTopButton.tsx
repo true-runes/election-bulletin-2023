@@ -29,20 +29,9 @@ export const BackToTopButton = () => {
     }
   }
 
-  const normalStyle = {
-    opacity: 0,
-    transition: '0.5s',
-    pointerEvents: 'none',
-  }
-  const activeStyle = {
-    opacity: 1,
-    transition: '0.5s',
-  }
-  const style = isButtonActive ? activeStyle : normalStyle
-
   return (
     <>
-      <div id="back-to-top-btn" style={style} onClick={scrollToTop}>
+      <div id="back-to-top-btn" onClick={scrollToTop}>
         <BiChevronsUp size="2rem" color="white" />
       </div>
       <style jsx>{`
