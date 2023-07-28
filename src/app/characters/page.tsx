@@ -88,7 +88,7 @@ const Cities = () => {
           <div className="characters">
             <h1
               id="s1"
-              className="characters-h1 text-3xl px-6 mb-4 underline underline-offset-8"
+              className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
             >
               幻想水滸伝
             </h1>
