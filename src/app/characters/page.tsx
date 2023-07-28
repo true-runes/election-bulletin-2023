@@ -12,6 +12,7 @@ import rhapsodia from '@/app/resource/char_rhapsodia.json'
 import s5 from '@/app/resource/char_s5.json'
 import tk from '@/app/resource/char_tk.json'
 import tsumutoki from '@/app/resource/char_tsumutoki.json'
+import others from '@/app/resource/char_others.json'
 
 export const metadata = {
   title: '総合部門',
@@ -77,6 +78,9 @@ const Cities = () => {
             </div>
             <div className="py-2">
               <a href="#tsumutoki">幻想水滸伝 紡がれし百年の時</a>
+            </div>
+            <div className="py-2">
+              <a href="#others">その他</a>
             </div>
           </div>
           <hr className="py-0" />
@@ -221,6 +225,22 @@ const Cities = () => {
               紡時
             </h1>
             {tsumutoki.map((character: any, index: number) => (
+              <div className="city-and-title px-6 py-1" key={index}>
+                <div className="flex flex-col border shadow-sm rounded-xl p-2 md:p-3 bg-gray-900 border-gray-700 shadow-slate-700/[.7] text-white my-2">
+                  <div className="py-2">{character}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="characters">
+            <h1
+              id="others"
+              className="characters-h1 text-3xl px-6 my-4 underline underline-offset-8"
+            >
+              その他
+            </h1>
+            {others.map((character: any, index: number) => (
               <div className="city-and-title px-6 py-1" key={index}>
                 <div className="flex flex-col border shadow-sm rounded-xl p-2 md:p-3 bg-gray-900 border-gray-700 shadow-slate-700/[.7] text-white my-2">
                   <div className="py-2">{character}</div>
