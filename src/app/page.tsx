@@ -15,6 +15,18 @@ const Home = async () => {
           <div className="my-6">
             <hr />
           </div>
+          {/* <p className="text-3xl py-4">
+            <Link
+              href="/characters"
+              passHref
+              style={{
+                textDecoration: 'underline',
+                textUnderlineOffset: '0.2em',
+              }}
+            >
+              総合部門
+            </Link>
+          </p> */}
           <p className="text-3xl py-4">
             <Link
               href="/headquarters-characters"
