@@ -15,7 +15,7 @@ const Home = async () => {
           <div className="my-6">
             <hr />
           </div>
-          <p className="text-3xl py-4">
+          {/* <p className="text-3xl py-4">
             <Link
               href="/characters"
               passHref
@@ -26,7 +26,7 @@ const Home = async () => {
             >
               総合部門
             </Link>
-          </p>
+          </p> */}
           <p className="text-3xl py-4">
             <Link
               href="/headquarters-characters"
