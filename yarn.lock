@@ -2657,9 +2657,9 @@ postcss@^8.4.23:
     source-map-js "^1.0.2"
 
 preline@^2.0.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/preline/-/preline-2.5.1.tgz#d21f1a94af1bd0e5556742bb992b463ce0441881"
-  integrity sha512-fEXOsz0xLfTm5sJmNanourrMjwjcgGtaVNg8Pt6GzUbZ/oXHIdcR94LBdeE0Ea0pBPFOOHzEL5LQwSbAvCJEfw==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/preline/-/preline-2.6.0.tgz#45dbd007f2a76519bbdaef276a39adbac30b435e"
+  integrity sha512-8O9ayfWgicM8w64k6HIXoRafVqI3xsyFhlT/OCR99USR5izlMGvCunAW+HsTtCwWI0V04m96eXcYy8ElYkDqNg==
   dependencies:
     "@popperjs/core" "^2.11.2"
 
