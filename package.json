@@ -7,7 +7,7 @@
     "@types/react-dom": "18.3.5",
     "@types/react-scroll": "^1.8.7",
     "autoprefixer": "10.4.21",
-    "eslint": "8.57.1",
+    "eslint": "9.23.0",
     "eslint-config-next": "15.0.2",
     "next": "15.2.4",
     "postcss": "8.5.3",
